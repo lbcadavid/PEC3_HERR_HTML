@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import 'lazysizes';
 
 function alternar(menu) {
 
@@ -14,7 +15,7 @@ function alternar(menu) {
 }
 
 $(function() {
-    
+
 });
 
 window.alternar = alternar; 

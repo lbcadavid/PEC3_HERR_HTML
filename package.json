@@ -24,6 +24,7 @@
   "dependencies": {
     "@fontsource/metal-mania": "^5.0.13",
     "@fortawesome/fontawesome-free": "^5.12.1",
-    "jquery": "^3.7.1"
+    "jquery": "^3.7.1",
+    "lazysizes": "^5.3.2"
   }
 }
