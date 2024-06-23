@@ -3,10 +3,12 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portada página fan de Amaranthe, enlaces al resto de páginas">
     <title>Amaranthe</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <!-- Cargamos la libreria para el font owesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="preload" href="./images/fondo.webp" as="image" media="(min-width: 768px)">
+    <link rel="preload" href="./images/fondo-760px.webp" as="image" media="(max-width: 767px)">
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <script async type="module" src="./js/main.js"></script>
   </head>
   <body class="fondoOscuro">
@@ -15,7 +17,7 @@
       <nav class="cajaNav">
         <div class="titNav">
           <div class="logo">
-            <a href="./index.html"><img src="./images/icono.png" alt="Logo" loading="lazy"></a>
+            <a href="./index.html"><img src="./images/icono.webp" alt="Logo" loading="lazy"></a>
           </div>
           <div class="logo-texto">
             <a class="texto-logo" href="./index.html">Amaranthe</a>   
@@ -49,7 +51,7 @@
           <h3>Contacto</h3>
           <p>Email: pec_prueba@grupoamarante.com</p>
           <div class="logo-footer">
-            <a href="./index.html"><img src="./images/icono.png" alt="Logo" loading="lazy"></a>
+            <a href="./index.html"><img src="./images/icono.webp" alt="Logo" loading="lazy"></a>
           </div>
       </div>
       <div class="social-links">

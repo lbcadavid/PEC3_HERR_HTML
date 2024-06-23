@@ -14,7 +14,7 @@ function alternar(menu) {
 }
 
 $(function() {
-
+    
 });
 
 window.alternar = alternar; 
