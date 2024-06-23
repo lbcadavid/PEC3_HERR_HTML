@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Amaranthe</title>
+    <link rel="stylesheet" href="../../css/styles.css" />
+    <!-- Cargamos la libreria para el font owesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <script async type="module" src="../../js/main.js"></script>
+  </head>
+  <body>
+
+    <header>
+      <nav class="cajaNav">
+        <div class="titNav">
+          <div class="logo">
+            <a href="../../index.html"><img src="../../images/icono.png" alt="Logo" loading="lazy"></a>
+          </div>
+          <div class="logo-texto">
+            <a class="texto-logo" href="../../index.html">Amaranthe</a>   
+          </div>
+          <div class="toggle" onclick="alternar('menu')"><i class="fas fa-bars fa-2x"></i></div>
+        </div>
+        <ul class="barNav cerrado" id="menu"> 
+          <li><a href="../../index.html">Portada</a></li>
+          <li><a href="../categoria.html">Categoría</a></li>
+          <li><a href="../presentacion.html">Presentación</a></li>
+          <li><a href="../enlaces.html">Enlaces</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="content-categoria">
+                <h2>Noticias de Amaranthe</h2>
+
+                <figure class="img-principal">
+                  <img  srcset="../../images/banda-min.jpeg 767w, 
+                              ../../images/banda.jpeg 1023w, 
+                              ../../images/banda.jpg 1920w"
+                      sizes="(max-width: 767px) 767px, 
+                            (max-width: 1023px) 1023px, 
+                            1920px"
+                      src="../../images/banda.jpg"
+                      alt="Banda de Amaranthe" 
+                      style="width: 100%; height: auto; margin: 0px;"
+                      loading="lazy">
+                  <figcaption class="text-center">
+                    <small>
+                      Fuente <a href="https://www.metallerium.com/amaranthe-presentan-nuevo-sencillo-outer-dimensions-de-nuevo-album-the-catalyst">https://www.metallerium.com/amaranthe-presentan-nuevo-sencillo-outer-dimensions-de-nuevo-album-the-catalyst</a>
+                    </small>
+                  </figcaption>
+                </figure>
+
+                <article class="row">
+                    <h3>Nuevo álbum The Catalyst</h3>
+                    <div class="columns">
+                        <div class="text-content">
+                            <p>La banda sueca ha lanzado nuevo álbum el 23 de febrero de 2024, con el nuevo cantante Mikael Sehlin, al que presentó con la canción el sencillo "Damnation Flame".</p>
+                            <p>La discográfica destaca:</p>
+                            <p>"15 años después de una carrera que les ha llevado a convertirse en una de las bandas de Metal más despiadadamente individuales y edificantes, agotando salas y giras por toda Europa y Estados Unidos, AMARANTHE están a punto de dar su paso más definitivo y revelador. Tres años después del aclamado Manifest, que alcanzó el top 20 en las listas internacionales y ha acumulado más de 130 millones de reproducciones, los maestros suecos del futurismo melódico y atronador están a punto de presentar The Catalyst.</p>
+                        </div>
+                        <img src="../../images/banda_album.jpeg" alt="Banda en el nuevo disco de Amaranthe" loading="lazy">
+                    </div>
+                </article>
+            
+                <article class="row">
+                    <h3>Nueva gira por Australia - 2024 </h3>
+                    <div class="columns">
+                        <div class="tours">
+                            <h4>Fechas de la gira</h4>
+                            <ol class="tour-list">
+                                <li>25 de agosto de 2024 - Nueva Zelanda - Auckland, Powerstation</li>
+                                <li>27 de agosto de 2024 - AU - Adelaida, Gobierno</li>
+                                <li>28 de agosto de 2024 - AU - Perth, Metropolis Fremantle</li>
+                                <li>30 de agosto de 2024 - AU - Sydney, The Metro Theatre</li>
+                                <li>31 de agosto de 2024 - AU - Melbourne, Northcote Theatre</li>
+                                <li>01 de septiembre de 2024 - AU - Brisbane, The Tivoli</li>
+                            </ol>
+                            <img id="rotate-icon" src="../../images/viajar.svg" alt="Icono Rotatorio" loading="lazy">
+                        </div>
+                        <div class="text-content-right">
+                            <p>Primera gira de Amaranthe por Australia y Nueva Zelanda. La gira también sigue al lanzamiento de su último álbum 'The Catalyst'.</p>
+                            <p>Los fanáticos pueden esperar todos los éxitos globales de AMARANTHE, incluidos 'Drop Dead Cynical', 'Digital World' y 'Damnation Flame', 'Re-Visión', 'Nexus' y 'Arcángel'. El futurismo magistralmente tormentoso y melódico de la banda está listo para cautivar a los fanáticos australianos y mostrar por qué son uno de los grupos de metal más emocionantes de la actualidad.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+      <div class="contact-info">
+          <h3>Contacto</h3>
+          <p>Email: pec_prueba@grupoamarante.com</p>
+          <div class="logo-footer">
+            <a href="../../index.html"><img src="../../images/icono.png" alt="Logo" loading="lazy"></a>
+          </div>
+      </div>
+      <div class="social-links">
+          <h3>Redes Sociales</h3>
+          <ul>
+              <li><a href="https://twitter.com/amaranthemetal?lang=es">Twitter</a></li>
+              <li><a href="https://www.instagram.com/amarantheofficial/?hl=es">Instagram</a></li>
+              <li><a href="https://www.youtube.com/channel/UCuRZjIZcbcdfhixsE1V3E0A">YouTube</a></li>
+          </ul>
+      </div>
+      <div class="useful-links">
+          <h3>Enlaces Útiles</h3>
+          <ul>
+              <li><a href="../../index.html">Portada</a></li>
+              <li><a href="../categoria.html">Categoría</a></li>
+              <li><a href="../presentacion.html">Presentación</a></li>
+              <li><a href="../enlaces.html">Enlaces</a></li>
+          </ul>
+      </div>
+      <div class="credits">
+          <p>PEC Realizada Por: Luis Francisco Blanco Cadavid</p>
+      </div>
+    </footer>
+  </body>
+</html>

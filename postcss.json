@@ -1,0 +1,11 @@
+{
+  "plugins": {
+    "cssnano": {},
+    "@fullhuman/postcss-purgecss": {
+      "content": [
+        "./src/**/*.html",
+        "./src/**/*.js"
+      ]
+    }
+  }
+}
